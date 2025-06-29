@@ -181,7 +181,10 @@ def set_preview_method(method):
     core.get_config()['preview_method'] = method
 
 
-set_preview_method(core.get_config()['preview_method'])
+if args.preview_method == latent_preview.LatentPreviewMethod.NoPreviews:
+    set_preview_method(core.get_config()['preview_method'])
+else:
+    logging.warning("[ComfyUI-Manager] Since --preview-method is set, ComfyUI-Manager's preview method feature will be ignored.")
 
 
 def set_component_policy(mode):
@@ -862,7 +865,7 @@ async def fetch_customnode_list(request):
 
         channel = found
 
-    result = dict(channel=channel, node_packs=node_packs)
+    result = dict(channel=channel, node_packs=node_packs.to_dict())
 
     return web.json_response(result, content_type='application/json')
 
