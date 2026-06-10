@@ -1,6 +1,96 @@
 {
     "custom_nodes": [
         {
+            "author": "7akoro",
+            "title": "comfyui-prompt-enhancer [NAME CONFLICT]",
+            "reference": "https://github.com/7akoro/comfyui-prompt-enhancer",
+            "files": [
+                "https://github.com/7akoro/comfyui-prompt-enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension for efficient prompt editing with weight adjustment, tag movement, auto-completion, and more."
+        },
+        {
+            "author": "kongsheng",
+            "title": "ComfyUI-GeminiImage [NAME CONFLICT]",
+            "reference": "https://github.com/kongsheng/ComfyUI-GeminiImage",
+            "files": [
+                "https://github.com/kongsheng/ComfyUI-GeminiImage"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Gemini image generation service supporting text-to-image and image-to-image with Gemini 2.0 models."
+        },
+        {
+            "author": "MohammadAboulEla",
+            "title": "ComfyUI-BiRefNet [NAME CONFLICT]",
+            "reference": "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet",
+            "files": [
+                "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node for background removal using the BiRefNet model."
+        },
+        {
+            "author": "florestefano1975",
+            "title": "ComfyUI-Prompt-Library [NAME CONFLICT]",
+            "reference": "https://github.com/florestefano1975/ComfyUI-Prompt-Library",
+            "files": [
+                "https://github.com/florestefano1975/ComfyUI-Prompt-Library"
+            ],
+            "install_type": "git-clone",
+            "description": "A fully-featured prompt manager for ComfyUI with categories, search, tags, and a random prompt node for automatic prompt variation."
+        },
+        {
+            "author": "JosDigby",
+            "title": "ComfyUI-DigbyTools",
+            "reference": "https://github.com/JosDigby/ComfyUI-DigbyTools",
+            "files": [
+                "https://github.com/JosDigby/ComfyUI-DigbyTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node pack with Keyframer and LTX VAE Latent prep nodes for keyframe animation workflows. (Description by CC)"
+        },
+        {
+            "author": "ivanravinovitch",
+            "title": "AutoCropByColor",
+            "reference": "https://github.com/ivanravinovitch/AutoCropByColor",
+            "files": [
+                "https://github.com/ivanravinovitch/AutoCropByColor"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes for automatic image cropping by color and scaling to megapixel dimensions. (Description by CC)"
+        },
+        {
+            "author": "brbbbq",
+            "title": "ComfyUI-WanMoveSVI_FLF_v2",
+            "reference": "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2",
+            "files": [
+                "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node implementing WAN-Move Sparse Video Interpolation with frame latency features (FLF v2). (Description by CC)"
+        },
+        {
+            "author": "krystal",
+            "title": "[WIP] ComfyUI KrystalNodes",
+            "reference": "https://github.com/Krystal-0/ComfyUI-KrystalNodes",
+            "files": [
+                "https://github.com/Krystal-0/ComfyUI-KrystalNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A small pack of utility nodes including CLIP/VAE fallbacks, Anima model detection, and multi image preview.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "TechnoWarrior2",
+            "title": "comfyui-live-preview [WIP]",
+            "reference": "https://github.com/TechnoWarrior2/comfyui-live-preview",
+            "files": [
+                "https://github.com/TechnoWarrior2/comfyui-live-preview"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node displaying large floating overlay window with live denoising step previews as image generates, similar to A1111 and Forge.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "HuajunPeng1982",
             "title": "comfyui-grsai-storyboard",
             "reference": "https://github.com/HuajunPeng1982/comfyui-grsai-storyboard",
@@ -179,26 +269,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node for image batch FPS changes. (Description by CC)"
-        },
-        {
-            "author": "denyazzolin",
-            "title": "comfyui-null-audio-checker",
-            "reference": "https://github.com/denyazzolin/comfyui-null-audio-checker",
-            "files": [
-                "https://github.com/denyazzolin/comfyui-null-audio-checker"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for detecting and handling null audio streams in workflows. (Description by CC)"
-        },
-        {
-            "author": "denyazzolin",
-            "title": "comfyui-null-checker",
-            "reference": "https://github.com/denyazzolin/comfyui-null-checker",
-            "files": [
-                "https://github.com/denyazzolin/comfyui-null-checker"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node for null value checking. (Description by CC)"
         },
         {
             "author": "emniko",
@@ -2271,16 +2341,6 @@
             ],
             "install_type": "git-clone",
             "description": "Personal utility tools for ComfyUI. (Description by CC)\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "HailXD",
-            "title": "comfyui-random-artist",
-            "reference": "https://github.com/HailXD/comfyui-random-artist",
-            "files": [
-                "https://github.com/HailXD/comfyui-random-artist"
-            ],
-            "install_type": "git-clone",
-            "description": "Generates random artist styles for ComfyUI workflows. (Description by CC)"
         },
         {
             "author": "wandaijin",
@@ -7280,16 +7340,6 @@
             "description": "NODES: Combine Images (duck)"
         },
         {
-            "author": "usman2003",
-            "title": "ComfyUI-Gender-Classifier",
-            "reference": "https://github.com/usman2003/ComfyUI-Gender-Classifier",
-            "files": [
-                "https://github.com/usman2003/ComfyUI-Gender-Classifier"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Gender Classification"
-        },
-        {
             "author": "wTechArtist",
             "title": "ComfyUI_vvl_BBOX",
             "reference": "https://github.com/wTechArtist/ComfyUI_vvl_BBOX",
@@ -7518,16 +7568,6 @@
             ],
             "install_type": "git-clone",
             "description": "GLB conversion to STL node for ComfyUI\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "Anonymzx",
-            "title": "ComfyUI-Indonesia-TTS [WIP]",
-            "reference": "https://github.com/Anonymzx/ComfyUI-Indonesia-TTS",
-            "files": [
-                "https://github.com/Anonymzx/ComfyUI-Indonesia-TTS"
-            ],
-            "description": "Repositori ini menyediakan integrasi model Text-to-Speech (TTS) Bahasa Indonesia dari Facebook (MMS-TTS-IND) ke dalam ComfyUI, sehingga Anda dapat langsung menyintesis suara berbahasa Indonesia dengan kontrol penuh via antarmuka node-based.\nNOTE: The files in the repo are not organized.",
-            "install_type": "git-clone"
         },
         {
             "author": "3dmindscapper",
@@ -10803,16 +10843,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI developer tools (Custom Node)"
-        },
-        {
-            "author": "Sakura-nee",
-            "title": "ComfyUI_Save2Discord",
-            "reference": "https://github.com/Sakura-nee/ComfyUI_Save2Discord",
-            "files": [
-                "https://github.com/Sakura-nee/ComfyUI_Save2Discord"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes:Send Generated Image To Discord Webhook.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "ThisModernDay",
