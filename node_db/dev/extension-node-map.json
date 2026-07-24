@@ -9410,6 +9410,10 @@
             "FBTextEncodeQwenImageEditPlus",
             "LibberApply",
             "LibberManager",
+            "LoraEntryDefine",
+            "LoraStackApply",
+            "LoraStackCollect",
+            "LoraStackView",
             "MaskProcessor",
             "MultiLoraLoader",
             "NodeInputSelect",
@@ -9417,8 +9421,10 @@
             "PromptComposer",
             "QwenAspectRatio",
             "SAMPreprocessNHWC",
+            "SaveImageWebsocket",
             "SceneCreate",
             "SceneInput",
+            "SceneLoraStackSave",
             "SceneMaskDefinition",
             "SceneOutput",
             "ScenePromptManager",
@@ -9437,8 +9443,13 @@
             "StoryVideoBatch",
             "StoryView",
             "SubdirLister",
+            "SubjectCompositor",
+            "SubjectLayerDefine",
             "TailEnhancePro",
-            "TailSplit"
+            "TailSplit",
+            "WanPresetDefine",
+            "WanPresetSelect",
+            "WanVidLoraStack"
         ],
         {
             "title_aux": "fb-tools"
