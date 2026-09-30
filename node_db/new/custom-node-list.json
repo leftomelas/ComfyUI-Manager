@@ -1,6 +1,49 @@
 {
     "custom_nodes": [
         {
+            "author": "oekobudde",
+            "title": "GIF Toolkit",
+            "reference": "https://github.com/oekobudde/ComfyUI-GIFToolkit",
+            "files": [
+                "https://github.com/oekobudde/ComfyUI-GIFToolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "Create compact looping GIFs in ComfyUI with preset sizing, visual multi-text placement, optional blinking and preview-first export."
+        },
+        {
+            "author": "AbstractEyes",
+            "title": "CFG Megapack",
+            "id": "comfy-cfg-megapack",
+            "reference": "https://github.com/AbstractEyes/comfy-cfg-megapack",
+            "files": [
+                "https://github.com/AbstractEyes/comfy-cfg-megapack"
+            ],
+            "install_type": "git-clone",
+            "description": "Classifier-free guidance taken apart into seven stage nodes (when, weak branch, combine, where, correct, govern, measure) plus 50 nodes named after the published guidance methods they implement (APG, CFG-Zero*, PAG, SEG, Perp-Neg, FDG, the guidance interval and more), all on one engine. SDXL, SD1.5 and flow-matching models (Anima)."
+        },
+        {
+            "author": "aifeifei798",
+            "name": "ComfyUI-FeiFei",
+            "title": "ComfyUI-FeiFei",
+            "reference": "https://github.com/aifeifei798/ComfyUI-FeiFei",
+            "files": [
+                "https://github.com/aifeifei798/ComfyUI-FeiFei"
+            ],
+            "install_type": "git-clone",
+            "description": "FeiFei's custom nodes: LLM-driven Prompt Director, prompt enhancing, vision captioner, aspect-ratio sizing, style/character templates, watermark, WebP save/load.",
+            "pip": [
+                "openai"
+            ],
+            "tags": [
+                "llm",
+                "prompt",
+                "caption",
+                "director",
+                "webp",
+                "feifei"
+            ]
+        },
+        {
             "author": "a63976659",
             "title": "ComfyUI-Global-Translation",
             "id": "comfyui-global-translation",
