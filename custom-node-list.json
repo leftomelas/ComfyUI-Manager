@@ -61870,6 +61870,17 @@
             "description": "A comprehensive, smart and compatible multi-language translation solution for the ComfyUI interface. Frontend and backend cooperate to translate nodes, menus, the settings panel, ComfyUI Manager and workflow templates in real time, while staying fully compatible with ComfyUI's official native translation instead of overriding it. The target language automatically follows ComfyUI's official locale setting (Settings → Extensions → Comfy.Locale), so nothing is forced on users who keep the official language; 15 language packs are bundled, including the RTL languages Arabic, Persian and Hebrew. Translation can be switched on/off live without restarting ComfyUI, and a built-in manager lets you disable translation for individual plugins."
         },
         {
+            "author": "AbstractEyes",
+            "title": "CFG Megapack",
+            "id": "comfy-cfg-megapack",
+            "reference": "https://github.com/AbstractEyes/comfy-cfg-megapack",
+            "files": [
+                "https://github.com/AbstractEyes/comfy-cfg-megapack"
+            ],
+            "install_type": "git-clone",
+            "description": "Classifier-free guidance taken apart into seven stage nodes (when, weak branch, combine, where, correct, govern, measure) plus 50 nodes named after the published guidance methods they implement (APG, CFG-Zero*, PAG, SEG, Perp-Neg, FDG, the guidance interval and more), all on one engine. SDXL, SD1.5 and flow-matching models (Anima)."
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
